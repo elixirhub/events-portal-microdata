@@ -28,3 +28,8 @@ var result2 = microdata.parse(url, function (err, result) {
 
 * `htmlOrUrl` String – An HTML source or an URL.
 * `callback` Function – Requied when the first parameter is an URL.
+
+
+## License
+
+Microdata is licensed under the MIT license.
