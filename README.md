@@ -2,10 +2,8 @@
 
 ## Installation
 
-Manually:
-
 ```Shell
-git clone git://github.com/elixirhub/microdata.git
+npm install elixirhub/microdata
 ```
 
 
@@ -16,10 +14,10 @@ var microdata = require('microdata');
 var url = 'http://elixir-europe.org/events/';
 
 // without URL
-var result1 = microdata.parse(html);
+var result = microdata.parse(html);
 
 // with URL
-var result2 = microdata.parse(url, function (err, result) {
+microdata.parse(url, function (err, result) {
 
 });
 ```
